@@ -30,14 +30,14 @@
 
             <Button
                 android:id="@+id/rotateX"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="animateOnClick"
                 android:text="Rotate X" />
 
             <Button
                 android:id="@+id/rotateY"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="animateOnClick"
                 android:text="Rotate Y" />
@@ -45,14 +45,14 @@
             <Button
                 android:id="@+id/rotateLeft"
                 android:onClick="animateOnClick"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Rotate Left" />
 
             <Button
                 android:id="@+id/rotateRight"
                 android:onClick="animateOnClick"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Rotate Right" />
         </LinearLayout>
@@ -66,35 +66,34 @@
             <Button
                 android:id="@+id/translateX"
                 android:onClick="animateOnClick"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Translate X" />
 
             <Button
                 android:onClick="animateOnClick"
                 android:id="@+id/translateY"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Translate Y" />
 
             <Button
                 android:onClick="animateOnClick"
                 android:id="@+id/fadeIn"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Fade In" />
 
             <Button
                 android:onClick="animateOnClick"
                 android:id="@+id/fadeOut"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Fade Out" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="fill"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -103,19 +102,19 @@
             <Button
                 android:onClick="animateOnClick"
                 android:id="@+id/zoomIn"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Zoom In" />
 
             <Button
                 android:onClick="animateOnClick"
                 android:id="@+id/zoomOut"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Zoom Out" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animation Set"
                 android:id="@+id/animationsStart"
